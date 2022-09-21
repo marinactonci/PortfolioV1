@@ -139,7 +139,3 @@ themeToggle.addEventListener('click', () => {
         themeToggle.style.color = 'hsl(250, 8%, 15%)';
     }
 });
-
-function submitForm() {
-    return confirm('Form has been submited!');
-}
