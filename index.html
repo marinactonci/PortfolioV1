@@ -188,26 +188,26 @@
         gsap.registerPlugin(ScrollTrigger)
 
         gsap.from('header', {opacity: 0, duration: 2})
-        gsap.from('.social__icons', {opacity: 0, duration: 1, x: -50, delay: 1})
-        gsap.from('.hero__image', {opacity: 0, duration: 1, x: 100, delay: 2})
-        gsap.from('.hero__container', {opacity: 0, duration: 1, y: 100, delay: 3})
+        gsap.from('.social__icons', {opacity: 0, duration: 0.8, x: -50, delay: 1})
+        gsap.from('.hero__image', {opacity: 0, duration: 0.8, x: 100, delay: 1.8})
+        gsap.from('.hero__container', {opacity: 0, duration: 0.8, y: 100, delay: 2.6})
         gsap.from('.mouse__container', {opacity: 0, duration: 2})
 
-        gsap.from('.projects__image', {scrollTrigger: '.projects__image', duration: 2, delay: 0.7, opacity: 0, y: -50, stagger: 1})
+        gsap.from('.projects__image', {scrollTrigger: '.projects__image', duration: 1, delay: 0.7, opacity: 0, y: -50, stagger: 0.7})
 
-        gsap.from('.about__stagger', {scrollTrigger: '.about__h1', duration: 1, delay: 1, opacity: 0, x: -100, stagger: 0.7})
-        gsap.from('.about__image', {scrollTrigger: '.about__h1', duration: 1, delay: 3, opacity: 0, x: 100})
+        gsap.from('.about__stagger', {scrollTrigger: '.about__h1', duration: 0.8, delay: 1, opacity: 0, x: -100, stagger: 0.7})
+        gsap.from('.about__image', {scrollTrigger: '.about__h1', duration: 0.8, delay: 2.8, opacity: 0, x: 100})
 
         gsap.from('.technologies__stagger', {scrollTrigger: '.grid__text', duration: 1, delay: 1, opacity: 0, stagger: 1})
         gsap.from('.grid__stagger', {scrollTrigger: '.grid__text', duration: 1, y: -50,opacity: 0, stagger: 1})
         gsap.from('.technologies__image', {scrollTrigger: '.grid__text', duration: 4, x: -100, opacity: 0})
 
-        gsap.from('.contact__stagger', {scrollTrigger: '.submit__button', duration: 2, opacity: 0, stagger: 1})
-        gsap.from('.form', {scrollTrigger: '.submit__button', duration: 2, opacity: 0, delay: 2, x: -100})
-        gsap.from('.contact__image', {scrollTrigger: '.submit__button', duration: 2, opacity: 0, delay: 3, x: 100})
+        gsap.from('.contact__stagger', {scrollTrigger: '.submit__button', duration: 1, opacity: 0, stagger: 1})
+        gsap.from('.form', {scrollTrigger: '.submit__button', duration: 1, opacity: 0, delay: 2, x: -100})
+        gsap.from('.contact__image', {scrollTrigger: '.submit__button', duration: 1, opacity: 0, delay: 3, x: 100})
 
-        gsap.from('.footer__list', {scrollTrigger: 'hr', duration: 2, opacity: 0, y: -50, delay: 1, stagger: 2})
-        gsap.from('.footer__icon', {scrollTrigger: 'hr', duration: 2, opacity: 0, y: -50, delay: 1, stagger: 1})
+        gsap.from('.footer__list', {scrollTrigger: 'hr', duration: 1, opacity: 0, y: -50, delay: 1, stagger: 1.5})
+        gsap.from('.footer__icon', {scrollTrigger: 'hr', duration: 1, opacity: 0, y: -50, delay: 1, stagger: 1})
     </script>
 </body>
 </html>
