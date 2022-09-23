@@ -39,11 +39,11 @@ $z-fixed: 100;
 $z-modal: 1000;
 
 .dark__theme {
-  color: white;
+  color: $body-color;
 }
 
 .light__theme {
-  color: hsl(250, 8%, 15%);
+  color: $title-color;
 }
 
 @media screen and (min-width: 968px) {
@@ -100,6 +100,10 @@ a {
 img {
   max-width: 75%;
   height: auto;
+}
+
+button {
+  font-family: $body-font;
 }
 
 #about-image {
@@ -395,7 +399,7 @@ section {
     }
 
     textarea {
-      min-width: 100%;
+      width: 100%;
       border: none;
       border-radius: 4px;
       background-color: $first-color-ligher;
@@ -403,6 +407,7 @@ section {
       font-family: $body-font;
       padding-left: 10px;
       padding-top: 14px;
+      resize: none;
 
       &::placeholder {
         color: white;
@@ -552,6 +557,10 @@ footer {
       a{
         color: white !important;
       }
+    }
+
+    i {
+      color: white !important;
     }
   }
 

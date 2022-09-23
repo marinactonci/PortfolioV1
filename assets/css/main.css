@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 .dark__theme {
-  color: white;
+  color: hsl(250deg, 60%, 99%);
 }
 
 .light__theme {
@@ -51,6 +51,10 @@ a {
 img {
   max-width: 75%;
   height: auto;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
 }
 
 #about-image {
@@ -317,7 +321,7 @@ section {
   color: white;
 }
 .contact__container form textarea {
-  min-width: 100%;
+  width: 100%;
   border: none;
   border-radius: 4px;
   background-color: hsl(250deg, 92%, 85%);
@@ -325,6 +329,7 @@ section {
   font-family: "Poppins", sans-serif;
   padding-left: 10px;
   padding-top: 14px;
+  resize: none;
 }
 .contact__container form textarea::-moz-placeholder {
   color: white;
@@ -454,6 +459,9 @@ footer .social__footer i {
     color: white;
   }
   .nav__list .nav__item a {
+    color: white !important;
+  }
+  .nav__list i {
     color: white !important;
   }
   .nav__list[data-visible=true] {
