@@ -452,6 +452,7 @@ footer .social__footer i {
     align-items: flex-start;
     padding: min(30vh, 10rem) 2em;
     position: fixed;
+    z-index: 999;
     inset: 0 0 0 40%;
     background: hsl(250deg, 69%, 61%);
     gap: 2em;
