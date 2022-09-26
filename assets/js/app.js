@@ -1,4 +1,6 @@
+const body = document.getElementById('a');
 const navMenu = document.getElementById('nav-menu');
+const navLinks = document.getElementsByClassName('nav__link');
 const hamburger = document.getElementById('hamburger');
 const hamburgerIcon = document.getElementById('hamburger-icon');
 const themeToggle = document.getElementById('theme-toggle');
@@ -7,6 +9,24 @@ const mouse = document.getElementById('mouse');
 const mouseContainer = document.getElementById('mouse-container');
 const lightTheme = document.getElementsByClassName('light__theme');
 
+const mainButton = document.getElementById('cta');
+const projectsSection = document.getElementById('projects');
+
+for(var i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', () => {
+        navMenu.setAttribute('data-visible', false);
+        hamburger.setAttribute('aria-expanded', false);
+        hamburgerIcon.classList.replace('uil-multiply', 'uil-bars');
+        hamburger.style.position = 'absolute';
+        if (themeToggle.classList.contains('uil-moon')) {
+            hamburgerIcon.style.color = 'hsl(250, 8%, 15%)';
+        }
+        else {
+            hamburgerIcon.style.color = 'white';
+        }
+    });
+}
+
 hamburger.addEventListener('click', () => {
     const visibility = navMenu.getAttribute('data-visible');
 
@@ -14,12 +34,14 @@ hamburger.addEventListener('click', () => {
         navMenu.setAttribute('data-visible', true);
         hamburger.setAttribute('aria-expanded', true);
         hamburgerIcon.classList.replace('uil-bars', 'uil-multiply');
+        hamburger.style.position = 'fixed';
         hamburgerIcon.style.color = 'white';
     }
     else {
         navMenu.setAttribute('data-visible', false);
         hamburger.setAttribute('aria-expanded', false);
         hamburgerIcon.classList.replace('uil-multiply', 'uil-bars');
+        hamburger.style.position = 'absolute';
         if (themeToggle.classList.contains('uil-moon')) {
             hamburgerIcon.style.color = 'hsl(250, 8%, 15%)';
         }
@@ -65,4 +87,8 @@ themeToggle.addEventListener('click', () => {
             }
         }
     }
+});
+
+mainButton.addEventListener('click', ()=> {
+    projectsSection.scrollIntoView({behavior: 'smooth'});
 });
