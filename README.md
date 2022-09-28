@@ -27,6 +27,7 @@
 - HTML
 - Sass
 - JavaScript
+- GSAP
 
 ## Contact
 
