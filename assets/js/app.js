@@ -92,10 +92,3 @@ themeToggle.addEventListener('click', () => {
 mainButton.addEventListener('click', ()=> {
     projectsSection.scrollIntoView({behavior: 'smooth'});
 });
-
-if(window.innerHeight < 690) {
-    mouseContainer.style.display = 'none';
-}
-else {
-    mouseContainer.style.display = 'flex';
-}

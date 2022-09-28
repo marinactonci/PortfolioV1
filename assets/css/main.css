@@ -430,6 +430,14 @@ footer .social__footer i {
   color: hsl(250deg, 69%, 61%);
 }
 
+@media (max-height: 760px) {
+  body {
+    background-color: red;
+  }
+  .mouse__container {
+    display: none;
+  }
+}
 @media (max-width: 60em) {
   section {
     padding: 0 5%;
