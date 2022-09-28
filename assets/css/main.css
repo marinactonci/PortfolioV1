@@ -3,8 +3,22 @@
   color: hsl(250deg, 60%, 99%);
 }
 
+a.dark__theme {
+  transition: all 0.6s;
+}
+a.dark__theme:hover {
+  color: hsl(250deg, 69%, 61%) !important;
+}
+
 .light__theme {
   color: hsl(250deg, 8%, 15%);
+}
+
+a.light__theme {
+  transition: all 0.6s;
+}
+a.light__theme:hover {
+  color: hsl(250deg, 69%, 61%) !important;
 }
 
 ::-moz-selection {

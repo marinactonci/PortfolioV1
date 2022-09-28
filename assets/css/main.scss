@@ -42,8 +42,24 @@ $z-modal: 1000;
   color: $body-color;
 }
 
+a.dark__theme {
+  transition: all 0.6s;
+
+  &:hover {
+    color: $first-color !important;
+  }
+}
+
 .light__theme {
   color: $title-color;
+}
+
+a.light__theme {
+  transition: all 0.6s;
+  
+  &:hover {
+    color: $first-color !important;
+  }
 }
 
 @media screen and (min-width: 968px) {
