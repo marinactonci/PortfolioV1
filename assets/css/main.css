@@ -379,6 +379,7 @@ section {
   cursor: pointer;
   transition: background-color 0.6s;
   font-size: 0.938rem;
+  margin-top: 2px;
 }
 .contact__container form button:hover {
   background-color: hsl(250deg, 57%, 53%);
@@ -392,6 +393,9 @@ section {
   transition: all 0.6s;
 }
 .contact__container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150%;
 }
 .contact__container img {
