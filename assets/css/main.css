@@ -320,7 +320,6 @@ section {
   width: 100%;
   color: white;
   padding-left: 40px;
-  margin: 0.5em 0;
   font-family: "Poppins", sans-serif;
 }
 .contact__container form input[type=text]::-moz-placeholder {
@@ -332,11 +331,20 @@ section {
 .contact__container form input[type=text]::placeholder {
   color: white;
 }
+.contact__container form #email {
+  margin: 10px 0;
+}
 .contact__container form .input__icon {
   position: absolute;
-  margin-top: 20px;
-  margin-left: 10px;
   color: white;
+}
+.contact__container form #user-icon {
+  margin-top: 13.5px;
+  margin-left: 10px;
+}
+.contact__container form #email-icon {
+  margin-top: 23px;
+  margin-left: 10px;
 }
 .contact__container form textarea {
   width: 100%;

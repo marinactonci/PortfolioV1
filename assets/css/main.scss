@@ -404,7 +404,6 @@ section {
       width: 100%;
       color: white;
       padding-left: 40px;
-      margin: 0.5em 0;
       font-family: $body-font;
   
       &::placeholder {
@@ -412,11 +411,23 @@ section {
       }
     }
 
+    #email {
+      margin: 10px 0;
+    }
+
     .input__icon {
       position: absolute;
-      margin-top: 20px;
-      margin-left: 10px;
       color: white;
+    }
+
+    #user-icon {
+      margin-top: 13.5px;
+      margin-left: 10px;
+    }
+
+    #email-icon {
+      margin-top: 23px;
+      margin-left: 10px;
     }
 
     textarea {
