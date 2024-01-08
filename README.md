@@ -33,4 +33,4 @@
 ## Contact
 
 - GitHub [@marinactonci](https://github.com/marinactonci)
-- Instagram [@marinactonci](https://instagram.com/marinactonci)
+- LinkedIn [Tonči Marinac](https://www.linkedin.com/in/marinactonci/)
