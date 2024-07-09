@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://marinactonci.netlify.app/">
+    <a href="https://marinactonci.vercel.app/">
       Demo
     </a>
   </h3>
