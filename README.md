@@ -1,12 +1,12 @@
 <h1 align="center">Personal Portfolio Page</h1>
 
-<div align="center">
+<!-- <div align="center">
   <h3>
     <a href="https://marinactonci.vercel.app/">
       Demo
     </a>
   </h3>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
